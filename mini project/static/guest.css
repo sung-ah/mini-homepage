@@ -1,0 +1,84 @@
+.main_guest_container {
+    display:flex;
+    flex-direction:column;
+    position: relative;
+}
+
+.guest_container {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    overflow: auto;
+}
+
+.guest_container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.guest_container::-webkit-scrollbar-thumb {
+    background-color: #773965;
+}
+
+.guest_container::-webkit-scrollbar-track {
+    background-color: #dbcfce;
+}
+
+
+.guest_box {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+.guest_bar {
+    flex: 0.2;
+    padding: 5px 8px;
+    background-color: #c8d0f0e3;
+    border-top: 1px solid #5972da;
+}
+
+.guest_name {
+    color: #251ca3;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.guest_text{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    height: 10rem;
+    padding: 0 10px;
+}
+
+.guest_text>img {
+    width: 22%;
+    margin-right: 7px;
+}
+
+.background-1 {
+    background-image: url(./imgs/짱구배경.jpg);
+    background-size: cover;
+}
+
+.background-2 {
+    background-image: url(./imgs/철수배경.jpg);
+    background-size: cover;
+}
+
+.background-3 {
+    background-image: url(./imgs/맹구배경.jpg);
+    background-size: cover;
+}
+
+.background-4 {
+    background-image: url(./imgs/훈이배경.jpg);
+    background-size: cover;
+}
+
+.background-5 {
+    background-image: url(./imgs/유리배경.jpg);
+    background-size: cover;
+}

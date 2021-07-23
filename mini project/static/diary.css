@@ -1,0 +1,127 @@
+.main_diary_content{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+}
+/*날짜부분*/
+.date-box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+    border: 1px solid #babdca;
+    display: flex;
+    align-items: center;
+    
+}
+
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #702aaa;
+    font-weight: 700;
+}
+
+.date-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+
+.color-red {
+	color: rgb(185, 61, 39);
+}
+
+.color-blue {
+    color: rgb(45, 96, 172);
+}
+
+.diary-container {
+    border: 1px solid #babdca;
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.diary-container::-webkit-scrollbar {
+    width: 11px;
+}
+
+.diary-container::-webkit-scrollbar-thumb {
+    background-color: #773965;
+}
+
+.diary-container::-webkit-scrollbar-track {
+    background-color: #dbcfce;
+}
+
+
+.diary_box {
+    border: 1px solid #5a7db3;
+    border-radius: 8px;
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.diary_box_date {
+    flex: 0.1;
+    padding-top: 1rem;
+    padding-left: 10px;
+    color: #521894;
+}
+
+.diary_text {
+    text-align: center;
+    flex: 1;
+    padding-top: 8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttton_box {
+    text-align: center;
+}
+
+.diary_button {
+    margin: 1.8rem;
+    width: 172px;
+    padding: 18px 0;
+    font-family: "Bazzi";
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+    transition: 1s ease all ;
+}
+
+.diary_button:hover {
+    color: #ffffff;
+    background-color: #699227 ;
+    border-radius: 8px;
+}
+
+.diary_button>i {
+    padding-right: 10px;
+}
+
+#secret_box {
+    display: none;
+}
